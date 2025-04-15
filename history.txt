@@ -1,0 +1,17 @@
+ 1246  cat > Pets
+ 1247  cat Pets 
+ 1248  cat > PackAnimals
+ 1249  cat PackAnimals 
+ 1250  mkdir AnimalRegistry
+ 1251  mv Pets PackAnimals > AnimalRegistry/
+ 1252  mv Pets PackAnimals  AnimalRegistry/
+ 1253  cd AnimalRegistry/
+ 1254  ls
+ 1255  sudo apt-get install mysql-server
+ 1256  mysql --version 
+ 1257  sudo dpkg install cowsay
+ 1258  sudo dpkg-get install cowsay
+ 1259  sudo apt-get install cowsay
+ 1260  cowsay Hello
+ 1261  cowsay Bye
+ 1262  history
