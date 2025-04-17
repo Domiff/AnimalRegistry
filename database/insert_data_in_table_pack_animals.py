@@ -31,6 +31,7 @@ def insert_data_into_table_pack_animal():
                 cursor.execute(pattern_for_pack_animals, query_for_kora)
 
                 connection.commit()
+                logger_info.success("Data inserted")
         except pymysql.err.OperationalError:
             logger_error.error("Connection failed")
 

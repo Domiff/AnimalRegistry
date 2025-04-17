@@ -31,6 +31,7 @@ def insert_data_into_table_pets():
                 cursor.execute(pattern_for_pets, query_for_chris)
 
                 connection.commit()
+                logger_info.success("Data inserted")
         except pymysql.err.OperationalError:
             logger_error.error("Connection failed")
 
