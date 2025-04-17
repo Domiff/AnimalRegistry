@@ -51,6 +51,3 @@ def create_table_young_animals():
 
     except Exception as e:
         logger_error.error("Connection failed", e)
-
-
-create_table_young_animals()
