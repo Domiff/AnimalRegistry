@@ -35,5 +35,5 @@ def insert_data_into_table_pets():
         except pymysql.err.OperationalError:
             logger_error.error("Connection failed")
 
-    except pymysql.err.OperationalError:
-        logger_error.error("Database does not exist")
+    except pymysql.err.OperationalError as e:
+        logger_error.error("Database does not exist", exc_info=e)

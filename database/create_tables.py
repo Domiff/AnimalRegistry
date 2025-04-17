@@ -40,4 +40,4 @@ def create_tables():
             logger_error.error("Connection failed")
 
     except Exception as e:
-        logger_error.error("Connection failed", e)
+        logger_error.error("Connection failed", exc_info=e)
