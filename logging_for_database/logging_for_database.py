@@ -20,5 +20,3 @@ file_handler_error.setFormatter(formatter)
 
 logger_info.addHandler(file_handler_info)
 logger_error.addHandler(file_handler_error)
-
-
